@@ -1,0 +1,83 @@
+body {
+    background: lightblue;
+    display:flex;
+    align-items: center ;
+    justify-content: center;
+    height: 50%;
+    padding-right: 300px;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: large;
+    display: flex;
+  }
+  .gift-img{
+padding-left: 200px;
+  }
+.container{
+  display: flex;
+gap: 30px;
+width: 60%;
+box-shadow: 0px 0px 0px #aaaaaa;
+border-radius: 5px;
+padding: 30px;
+}
+.left{
+width: 0%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 240, 240);
+border-radius: 5px;
+}
+.fa-soli{
+  font-size: 250px;
+  padding: 30px;
+  color: #db0606;
+}
+#timer{
+  width: 50%;
+}
+#timer h2{
+  color: #db0606;
+}
+.counter{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.box{
+  background-color: #0f2172;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50px;
+  border-radius: 5px;
+  height: 45px;
+  font-size: x-large;
+  -webkit-text-fill-color: white;
+}
+.box span{
+  font-size: 30px;
+
+}
+.box p{
+  margin: 10px;
+}
+.name{
+  display: flex;
+  gap: 40px;
+}
+.gift-info h3{
+font-size: 30px;
+
+color:#0b64a4 ;
+}
+.giveaway{
+  color:black;
+}
+
+.giveaway p{
+  color: gray;
+}
